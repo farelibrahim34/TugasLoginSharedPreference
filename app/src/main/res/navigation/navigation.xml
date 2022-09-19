@@ -24,6 +24,9 @@
         <action
             android:id="@+id/action_homeFragment2_to_splashFragment2"
             app:destination="@id/splashFragment2" />
+        <action
+            android:id="@+id/action_homeFragment2_to_loginFragment3"
+            app:destination="@id/loginFragment3" />
     </fragment>
     <fragment
         android:id="@+id/loginFragment3"

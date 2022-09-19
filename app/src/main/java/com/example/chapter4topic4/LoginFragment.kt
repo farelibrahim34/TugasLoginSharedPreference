@@ -51,6 +51,7 @@ class LoginFragment : Fragment() {
 
             }else if (user == getDataUser.toString() && pw == getDataPw.toString()){
                 findNavController().navigate(R.id.action_loginFragment3_to_homeFragment2)
+                Toast.makeText(context,"Anda Berhasil Login",Toast.LENGTH_SHORT).show()
 
             }else if (user != getDataUser.toString() || pw != getDataPw.toString()){
                 Toast.makeText(context,"USERNAME DAN PASSWORD ANDA SALAH",Toast.LENGTH_SHORT).show()
